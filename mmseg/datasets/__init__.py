@@ -24,8 +24,7 @@ from .potsdam import PotsdamDataset
 from .refuge import REFUGEDataset
 from .stare import STAREDataset
 from .synapse import SynapseDataset
-from .consep_type import ConsepTypeDataset
-from .consep_type2 import ConsepTypeDataset2
+from .consep import ConsepTypeDataset
 from .MoNuSAC import MoNuSACDataset
 
 # yapf: disable
@@ -64,5 +63,5 @@ __all__ = [
     'MapillaryDataset_v2', 'Albu', 'LEVIRCDDataset',
     'LoadMultipleRSImageFromFile', 'LoadSingleRSImageFromFile',
     'ConcatCDInput', 'BaseCDDataset', 'DSDLSegDataset', 'BDD100KDataset',
-    'ConsepTypeDataset', 'ConsepTypeDataset2', 'MoNuSACDataset'
+    'ConsepTypeDataset', 'MoNuSACDataset', 'Conic2022SegDataset'
 ]
